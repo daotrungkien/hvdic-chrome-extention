@@ -1,0 +1,130 @@
+body {
+	font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 100%;
+	width: 320px;
+}
+
+h1 {
+	font-family: Helvetica Neue,Helvetica,Arial;
+	font-size: 2em;
+	color: #2262AD;
+	text-shadow: 1px 1px 0 #fff,2px 2px 0 #d0d0d0;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+#message {
+	color: red;
+	background-color: yellow;
+	padding: 3px;
+	display: none;
+}
+
+.help-info {
+	color: #007;
+	background-color: #f0f0f0;
+	padding: 3px;
+	display: none;
+	font-size: 90%;
+}
+.help-info ul {
+	margin: 0;
+	padding-left: 25px;
+}
+
+.hotkey {
+	display: inline-block;
+    background-color: #e2e2f3;
+    padding: 2px 5px;
+    margin: 1px 0;
+    border-radius: 3px;
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+
+.footnote {
+	font-size: 80%;
+}
+.footnote, .footnote a {
+	color: #a0a0a0;
+}
+
+
+input, button {
+	border: 1px solid #4C9CF1;
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s ease;
+		-ms-transition: all 0.25s ease;
+			transition: all 0.25s ease;
+}
+input:focus, button:focus {
+	border: 1px solid #6666ba;
+	outline: none;
+	box-shadow: 0 0 10px #6666ba;
+}
+button {
+	background-color: #7084ff;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #324fff;
+	box-shadow: 0 0 10px #6666ba;
+}
+
+
+.inline-icon {
+	width: auto;
+	height: 18px;
+	position: relative;
+	top: 5px;
+}
+
+
+.lookup #text {
+	width: 100%;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin: 5px 0 5px 0;
+	padding: 3px;
+}
+::-webkit-input-placeholder {
+	color: #e0e0e0;
+}
+.lookup button {
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+	width: 32.5%;
+}
+.lookup button[data-lang=han] {
+	color: #ff0;
+}
+.lookup button:first-child {
+	background-color: #324fff;
+	float: left;
+}
+.lookup button:last-child {
+	float: right;
+}
+
+.quick-links {
+	list-style-type: none;
+	padding: 0;
+}
+.quick-links li {
+	color: #007cff;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	padding: 5px;
+	cursor: pointer;
+}
+.quick-links li:hover {
+	color: #fff;
+	background-color: #4C9CF1;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Từ điển Hán Nôm</title>
+	
+    <link rel="stylesheet" type="text/css" href="popup.css">
+	
+	<script src="lib/jquery.min-1.11.1.js"></script>
+	<script src="lib/avim20080728.js"></script>
+	<script src="common.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  
+  <body>
+    <h1>Từ điển Hán Nôm</h1>
+	<div id="message"></div>
+
+	<form class="lookup">
+		<input type="text" id="text" placeholder="漢, 汉, 6F22, hán, han4" autofocus />
+		<div style="text-align:center">
+		<button type="button" data-lang="1">Tra Hán Việt</button><button type="button" data-lang="3">Tra Nôm</button><button type="button" data-lang="2">Tra Pinyin</button>
+		</div>
+	</form>
+	
+	<ul class="quick-links">
+	  <li data-href="">Tra từ tổng hợp</li>
+	  <li data-href="rad-hv">Tìm theo bộ thủ</li>
+	  <li data-href="strokes-hv">Tìm theo nét viết</li>
+	  <li data-href="ccd-hv">Tìm theo kết cấu</li>
+	  <li data-href="transcript.php">Phiên âm, chuyển phồn ⇆ giản thể</li>
+	  <li data-href="comment.php">Góp ý</li>
+	  <li id="show-help">Hướng dẫn sử dụng</li>
+	</ul>
+	
+	<div class="help-info small">
+		Sử dụng một trong các cách sau để tra từ:<br/>
+		<ul>
+			<li>Ấn chuột lên biểu tượng <img class="inline-icon" src="image/icon16.png" /> trên thanh công cụ của Chrome, hoặc nhấn <span class="hotkey">Ctrl+Shift+K</span> rồi nhập từ cần tra.</li>
+			<li>Đánh dấu từ cần tra trong một trang web bất kỳ, rồi nhấn phím <span class="hotkey">Ctrl+Shift+H</span> để tra Hán Việt hoặc <span class="hotkey">Ctrl+Shift+Y</span> để tra Pinyin.</li>
+			<li>Đánh dấu từ cần tra trong một trang web bất kỳ, rồi ấn chuột phải rồi chọn <i>Tra từ Hán Việt...</i> trên menu.</li>
+		</ul>
+	</div>
+	
+	<div class="footnote">Nếu bạn thấy app này hữu ích, hãy <a href="#" data-href="https://chrome.google.com/webstore/detail/t%E1%BB%AB-%C4%91i%E1%BB%83n-h%C3%A1n-vi%E1%BB%87t/dbphofhpofnlkgolgljnfclnlbllgaln/reviews">vote cho chúng tôi ở đây</a> để động viên.</div>
+  </body>
+</html>
+
